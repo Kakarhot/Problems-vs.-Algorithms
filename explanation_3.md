@@ -1,0 +1,3 @@
+A maximum number can be formed from given digits (0-9) when the largest digit appears first, second largest digit appears second, and so on.. finally the smallest digit appears in the end. The same logic can be extended to solve this problem. I start by sorting the specified array in descending order and construct two numbers by picking alteranting digits from the array.
+
+Time Complexity: O(nlog(n)) Space Complexity: O(n)
